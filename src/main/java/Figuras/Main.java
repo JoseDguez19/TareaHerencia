@@ -10,16 +10,17 @@ package Figuras;
  */
 public class Main {
     public static void main(String[] args) {
-        Cuadrado cuadrado = new Cuadrado(5);
-        System.out.println("Área del cuadrado: " + cuadrado.calcularArea());
+        Cuadrado c1 = new Cuadrado(5, 10, 15, 12, 19, 5, 9, 4, 7, 6, 8, 3, 2);
+        c1.verDatos();
         
-        Rectangulo rectangulo = new Rectangulo(10, 5);
-        System.out.println("Área del rectángulo: " + rectangulo.calcularArea());
+        Rectangulo rec1 = new Rectangulo(10, 15, 12, 19, 5, 9, 4, 7, 6, 8, 3, 2);
+        rec1.verDatos();
         
-        Paralelogramo paralelogramo = new Paralelogramo(8, 6);
-        System.out.println("Área del paralelogramo: " + paralelogramo.calcularArea());
+        Paralelogramo paralelogramo = new Paralelogramo(12, 19, 5, 9, 4, 7, 6, 8, 3, 2);
+        paralelogramo.verDatos();
         
-        Trapezoide trapecio = new Trapezoide(8, 5, 4);
-        System.out.println("Área del trapecio: " + trapecio.calcularArea());
+        Trapezoide trap1 = new Trapezoide(9, 5, 12, 5, 9, 4, 7, 6, 8, 3, 2);
+        trap1.verDatos();
     }
+    
 }
